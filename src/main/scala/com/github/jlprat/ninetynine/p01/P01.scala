@@ -24,4 +24,9 @@ object P01 {
     */
   final def myLastOption[A](list: List[A]): Option[A] = ???
 
+
+
+  implicit class ListOps[A](list: List[A]) {
+    def implLast: Option[A] = ???
+  }
 }

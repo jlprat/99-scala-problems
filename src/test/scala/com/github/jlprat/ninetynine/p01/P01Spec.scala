@@ -80,4 +80,37 @@ class P01Spec extends WordSpec {
     }
   }
 
+  "The new available method 'implLast'" when {
+    "called on empty lists" should {
+      val empty = List()
+      "return None" in {
+        assert(empty.implLast.isEmpty)
+      }
+    }
+    "called on lists with one element" should {
+      val singleInt = List(1)
+      val singleString = List("foo")
+      "return that single element" in {
+        assert(singleInt.implLast === Some(1))
+        assert(singleString.implLast === Some("foo"))
+      }
+    }
+    "called on lists with multiple elements" should {
+      val smallList = List.tabulate(5)(x => x)
+      val mediumList = List.tabulate(100)(x => x)
+      val bigList = List.tabulate(20000)(x => x)
+      "return always the last element" in {
+        assert(smallList.implLast === Some(4))
+        assert(mediumList.implLast === Some(99))
+        assert(bigList.implLast === Some(19999))
+      }
+    }
+    "called on lists that include lists" should {
+      val table = List.tabulate(3,4)((x,y) => s"$x - $y")
+      "return also the last element" in {
+        assert(table.implLast === Some(List.tabulate(4)(x => s"2 - $x")))
+      }
+    }
+  }
+
 }
