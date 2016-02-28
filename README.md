@@ -5,7 +5,7 @@ This is another take on 99 Scala Problems. However, the purpose of this is not t
 This 99 Scala problems are an adaptation of http://aperiodic.net/phil/scala/s-99/ which at it's turn are an adaptation of https://sites.google.com/site/prologsite/prolog-problems. I a couple of exercices to make them more testable.
 
 ## Purpose
-The purpose of this exercercises is to practice and learn Scala, and using already built-in functions is discouraged, and actually the tests will fail if used.
+The purpose of this exercercises is to practice and learn Scala, and using already built-in functions is discouraged.
 
 I decided to start with this project because, long time ago, when I discovered the 99 Scala Problems, I had a lot of fun and I learned a lot about Scala. Recently, I stumbled upon them again, and I realized that there are no github projects (or at least, I couldn't find any) that could be used as a sandbox, where people can code their own solutions and run them against a battery of tests.
 
