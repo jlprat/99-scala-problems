@@ -15,4 +15,5 @@ As in the original version, problems are in groupped in 7 different types: Lists
 TBD
 
 ## How to run the tests
-TBD
+Just run:
+> sbt test
