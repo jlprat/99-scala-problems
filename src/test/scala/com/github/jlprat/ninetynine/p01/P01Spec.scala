@@ -5,9 +5,10 @@ import com.github.jlprat.ninetynine.p01.P01._
 
 
 /**
+  * Created by @jlprat on 28/2/16.
+  *
   * This class tests the problem P01: Find the last element of a list.
   *
-  * Created by @jlprat on 28/2/16.
   */
 class P01Spec extends WordSpec {
 
