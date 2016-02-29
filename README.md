@@ -26,7 +26,7 @@ P03\*: Find the *k*<sup>th</sup> element of a list
 P04\*: Find the number of elements of a list  
 P05\*: Reverse a list  
 P06\*: Find out if a list is a palindrome  
-P07\*\*: Flatten a nested list structure
+P07\*\*: Flatten a nested list structure  
 P08\*\*: Eliminate consecutive duplicates of list elements  
 P09\*\*: Pack consecutive duplicates of list elements into sublists  
 P10\*: Run-length encoding of a list (Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E)  
