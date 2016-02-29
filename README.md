@@ -5,7 +5,7 @@ This is another take on 99 Scala Problems. However, the purpose of this is not t
 This 99 Scala problems are an adaptation of http://aperiodic.net/phil/scala/s-99/ which at it's turn are an adaptation of https://sites.google.com/site/prologsite/prolog-problems. I a couple of exercices to make them more testable.
 
 ## Purpose
-The purpose of this exercercises is to practice and learn Scala, and using already built-in functions is discouraged, and actually the tests will fail if used.
+The purpose of this exercercises is to practice and learn Scala, and using already built-in functions is discouraged.
 
 I decided to start with this project because, long time ago, when I discovered the 99 Scala Problems, I had a lot of fun and I learned a lot about Scala. Recently, I stumbled upon them again, and I realized that there are no github projects (or at least, I couldn't find any) that could be used as a sandbox, where people can code their own solutions and run them against a battery of tests.
 
@@ -15,4 +15,18 @@ As in the original version, problems are in groupped in 7 different types: Lists
 TBD
 
 ## How to run the tests
-TBD
+Just run:
+> sbt test
+
+##Problem list
+### Working with Lists
+P01\*: Find the last element of a list  
+P02\*: Find the penultimate element of a list (last but one)  
+P03\*: Find the *k*<sup>th</sup> element of a list  
+P04\*: Find the number of elements of a list  
+P05\*: Reverse a list  
+P06\*: Find out if a list is a palindrome  
+P07\*\*: Flatten a nested list structure  
+P08\*\*: Eliminate consecutive duplicates of list elements  
+P09\*\*: Pack consecutive duplicates of list elements into sublists  
+P10\*: Run-length encoding of a list (Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E)  
