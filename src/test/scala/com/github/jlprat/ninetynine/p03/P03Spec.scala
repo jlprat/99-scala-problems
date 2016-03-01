@@ -5,7 +5,7 @@ import org.scalatest.WordSpec
 import com.github.jlprat.ninetynine.p03.P03._
 
 /**
-  * Created by josep on 29/02/2016.
+  * Created by @jlprat on 29/02/2016.
   *
   * This class tests the problem P03: Find the kth element of a list.
   */

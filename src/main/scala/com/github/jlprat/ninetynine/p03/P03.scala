@@ -1,7 +1,7 @@
 package com.github.jlprat.ninetynine.p03
 
 /**
-  * Created by josep on 29/02/2016.
+  * Created by @jlprat on 29/02/2016.
   *
   * P03: Find the kth element of a list
   * Difficulty: *

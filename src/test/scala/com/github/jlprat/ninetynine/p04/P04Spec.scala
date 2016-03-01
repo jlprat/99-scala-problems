@@ -5,7 +5,8 @@ import org.scalatest.WordSpec
 import com.github.jlprat.ninetynine.p04.P04._
 
 /**
-  * Created by josep on 01/03/2016.
+  * Created by @jlprat on 01/03/2016.
+  * This class tests the problem P04: Find the number of elements of a list
   */
 class P04Spec extends WordSpec {
 

@@ -1,31 +1,33 @@
-package com.github.jlprat.ninetynine.p04
+package com.github.jlprat.ninetynine.p05
 
 /**
   * Created by @jlprat on 01/03/2016.
-  * P04: Find the number of elements of a list
+  * P05: Reverse a list
   * Difficulty: *
   */
-object P04 {
+object P05 {
 
   /**
-    * Calculates the number of elements in the list
-    * @param list the list we want to know the size of
+    * Returns a list with the elements in the exact reversed order as the original
+    * @param list the list to reverse
     * @tparam A the type of the list
-    * @return the size of the list
+    * @return the reversed list
     */
-  final def size[A](list: List[A]): Int = ???
+  def reverse[A](list: List[A]): List[A] = ???
 
   /**
     * This is a way to extend classes, in this case, we add new functionality to the already existing Lists
+    *
     * @param list the type we want to extend
     * @tparam A the type of the list, here no restriction
     */
   implicit class ListOps[A](list: List[A]) {
 
     /**
-      * Calculates the number of elements in the list
-      * @return the size of the list
+      * Reverses a list
+      *
+      * @return the reversed list
       */
-    def mySize: Int = ???
+    def myReverse: List[A] = ???
   }
 }
