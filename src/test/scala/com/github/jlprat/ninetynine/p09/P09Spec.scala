@@ -2,7 +2,7 @@ package com.github.jlprat.ninetynine.p09
 
 import org.scalatest.WordSpec
 
-import com.github.jlprat.ninetynine.p09.S09._
+import com.github.jlprat.ninetynine.p09.P09._
 
 /**
   * Created by @jlprat on 02/03/2016.
