@@ -5,7 +5,8 @@ import org.scalatest.WordSpec
 import com.github.jlprat.ninetynine.p06.P06._
 
 /**
-  * Created by josep on 01/03/2016.
+  * Created by @jlprat on 01/03/2016.
+  * Specs for problem P06: Find out if a list is a palindrome
   */
 class P06Spec extends WordSpec {
   "isPalindrome" when {
