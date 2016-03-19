@@ -12,11 +12,17 @@ I decided to start with this project because, long time ago, when I discovered t
 As in the original version, problems are in groupped in 7 different types: Lists, Arithmetic, Logic and Codes, Binary Trees, Multiway Trees, Graphs and Miscellaneous. Also the problems have different levels of difficulty marked by stars (*), being 1 star the easiest and 3 stars the most difficult ones.
 
 ## How to work with this project
-TBD
+It's easy, just pick a problem, read the tests, and implement the methods in the class. Some problems offer different alternatives to implement or interesting things to do, like adding your custom methods to Lists for example.
+
+Each problem is located in the `src` folder under the corresponding package, so P01 is under `com.github.jlprat.ninetynine.P01`. Tests follow the same structure and are located under the `test` folder.
 
 ## How to run the tests
-Just run:
+Once you are ready with your implementation open a terminal, go to the project folder and just run:
 > sbt test
+
+Or if you want to run a specific test, for example P01 you can run:
+
+> sbt testOnly com.github.jlprat.ninetynine.p01.P01Spec
 
 ##Problem list
 ### Working with Lists
@@ -30,3 +36,4 @@ P07\*\*: Flatten a nested list structure
 P08\*\*: Eliminate consecutive duplicates of list elements  
 P09\*\*: Pack consecutive duplicates of list elements into sublists  
 P10\*: Run-length encoding of a list (Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E)  
+P11\*: Modified run-length encoding. Only elements with duplicates are transferred as (N, E) terms
