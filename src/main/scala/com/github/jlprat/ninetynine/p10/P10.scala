@@ -2,7 +2,8 @@ package com.github.jlprat.ninetynine.p10
 
 /**
   * Created by @jlprat on 02/03/2016.
-  * P10: Run-length encoding of a list (Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E)
+  * P10: Run-length encoding of a list (Consecutive duplicates of elements are encoded as tuples (N, E) where
+  * N is the number of duplicates of the element E). Use pack method specified in P09
   * Difficulty: *
   */
 object P10 {
