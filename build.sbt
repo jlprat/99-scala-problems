@@ -2,8 +2,8 @@ name := """99 scala problems"""
 
 version := "1.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 
 fork in run := true
