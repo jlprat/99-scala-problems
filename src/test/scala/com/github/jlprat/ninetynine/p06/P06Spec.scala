@@ -17,6 +17,7 @@ class P06Spec extends WordSpec {
     }
     "called in single element lists" should {
       "return true" in {
+        //candidate to generator test
         assert(isPalindrome(List(1)))
         assert(isPalindrome(List("foo")))
       }

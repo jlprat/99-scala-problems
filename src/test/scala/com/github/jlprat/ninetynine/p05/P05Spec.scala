@@ -20,6 +20,7 @@ class P05Spec extends WordSpec {
     }
     "called on lists that contain the same element" should {
       "return the same list back" in {
+        //candidate to generator test
         val sameElems1 = List(1,1,1)
         assert(reverse(sameElems1) === sameElems1)
         val sameElems2 = List("foo", "foo", "foo")
@@ -28,6 +29,7 @@ class P05Spec extends WordSpec {
     }
     "called on lists that are palindromes" should {
       "return the same list back" in {
+        //candidate to generator test
         val palindromeEven = List(1, 2, 3, 3, 2, 1)
         assert(reverse(palindromeEven) === palindromeEven)
         val palindromeOdd = List(1, 2, 3, 2, 1)
@@ -41,6 +43,7 @@ class P05Spec extends WordSpec {
     }
     "called twice on a list" should {
       "return the same list, independently of the source list" in {
+        //candidate to generator test
         assert(reverse(reverse(someList)) === someList)
       }
     }

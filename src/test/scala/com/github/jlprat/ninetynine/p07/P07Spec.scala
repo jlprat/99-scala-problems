@@ -19,11 +19,13 @@ class P07Spec extends WordSpec {
     }
     "called on an already flattened list" should {
       "return the same list" in {
+        //candidate to generator test
         assert(flatten(intList) === intList)
       }
     }
     "called on list with only one inner list" should {
       "return the 'inner' list" in {
+        //candidate to generator test
         val outer = List(intList)
         assert(flatten(outer) === intList)
       }

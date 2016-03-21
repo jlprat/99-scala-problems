@@ -19,6 +19,7 @@ class P12Spec extends WordSpec {
     }
     "called on any encoded list" should {
       "return the original list" in {
+        //candidate to generator test
         val list1 = List(1, 2, 3)
         val list2 = List(1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5)
         val list3 = List("a", "ab", "a", "ab")
