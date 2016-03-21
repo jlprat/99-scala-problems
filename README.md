@@ -37,3 +37,23 @@ P08\*\*: Eliminate consecutive duplicates of list elements
 P09\*\*: Pack consecutive duplicates of list elements into sublists  
 P10\*: Run-length encoding of a list (Consecutive duplicates of elements are encoded as tuples (N, E) where N is the number of duplicates of the element E)  
 P11\*: Modified run-length encoding. Only elements with duplicates are transferred as (N, E) terms
+P12\*\*: Decode a run-length encoded list.
+P13\*\*: Run-length encoding of a list (direct solution).
+P14\*: Duplicate the elements of a list.
+P15\*\*: Duplicate the elements of a list a given number of times.
+P16\*\*: Drop every Nth element from a list.
+P17\*: Split a list into two parts.
+P18\*\*: Extract a slice from a list.
+P19\*\*: Rotate a list N places to the left.
+P20\*: Remove the Kth element from a list.
+P21\*: Insert an element at a given position into a list.
+P22\*: Create a list containing all integers within a given range.
+P23\*\*: Extract a given number of randomly selected elements from a list.
+P24\*: Lotto: Draw N different random numbers from the set 1..M.
+P25\*: Generate a random permutation of the elements of a list.
+P26\*\*: Generate the combinations of K distinct objects chosen from the N elements of a list.
+P27\*\*: Group the elements of a set into disjoint subsets.
+P28\*\*: Sorting a list of lists according to length of sublists.
+
+
+
