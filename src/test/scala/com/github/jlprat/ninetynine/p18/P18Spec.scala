@@ -1,7 +1,7 @@
 package com.github.jlprat.ninetynine.p18
 
 import org.scalatest.WordSpec
-import com.github.jlprat.ninetynine.p18.S18._
+import com.github.jlprat.ninetynine.p18.P18._
 
 
 /**
