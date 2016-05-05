@@ -31,7 +31,7 @@ object P16 {
       * @param n the value of n
       * @return a list without every nth element
       */
-    def drop( n: Int): List[A] = ???
+    def myDrop( n: Int): List[A] = ???
 
   }
 
